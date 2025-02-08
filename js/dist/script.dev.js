@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }, 30000);
   (0, _tabs["default"])(".tabheader__item", ".tabcontent", ".tabheader__items", "tabheader__item_active");
   (0, _modal["default"])("[data-modal]", ".modal", modalTimerId);
-  (0, _timer["default"])(".timer", "2024-06-11");
+  (0, _timer["default"])(".timer", "2026-06-20");
   (0, _cards["default"])();
   (0, _calc["default"])();
   (0, _forms["default"])("form", modalTimerId);
