@@ -64,8 +64,11 @@ function cards() {
     return MenuCard;
   }();
 
-  axios.get("http://localhost:3000/menu").then(function (data) {
-    data.data.forEach(function (_ref) {
+  fetch("menu.json") // Путь к JSON-файлу в репозитории
+  .then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    data.forEach(function (_ref) {
       var img = _ref.img,
           altimg = _ref.altimg,
           title = _ref.title,
@@ -73,6 +76,8 @@ function cards() {
           price = _ref.price;
       new MenuCard(img, altimg, title, descr, price, ".menu .container").render();
     });
+  })["catch"](function (error) {
+    return console.error("Ошибка загрузки данных:", error);
   });
 }
 
