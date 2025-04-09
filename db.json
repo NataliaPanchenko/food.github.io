@@ -1,6 +1,5 @@
 {
-  "menu": [
-    {
+  "menu": [{
       "img": "img/tabs/vegy.jpg",
       "altimg": "vegy",
       "title": "Меню 'Фитнес'",
@@ -22,71 +21,5 @@
       "price": 21
     }
   ],
-  "requests": [
-    {
-      "name": "Наталья Панченко",
-      "phone": "+380503033513",
-      "id": 1
-    },
-    {
-      "name": "Шрек",
-      "phone": "777",
-      "id": 2
-    },
-    {
-      "name": "Наталья Панченко",
-      "phone": "+4916091475285",
-      "id": 3
-    },
-    {
-      "name": "Наталья Панченко",
-      "phone": "+38 (050) 303-35-13",
-      "id": 4
-    },
-    {
-      "name": "Natali",
-      "phone": "1234567",
-      "id": 5
-    },
-    {
-      "name": "Natalia",
-      "phone": "ff",
-      "id": 6
-    },
-    {
-      "name": "Anton",
-      "phone": "88005553535",
-      "id": 7
-    },
-    {
-      "name": "f",
-      "phone": "543",
-      "id": 8
-    },
-    {
-      "name": "uuu",
-      "phone": "123",
-      "id": 9
-    },
-    {
-      "name": "st nikolas",
-      "phone": "06122023",
-      "id": 10
-    },
-    {
-      "name": "larisa",
-      "phone": "245",
-      "id": 11
-    },
-    {
-      "name": "angela",
-      "phone": "112233",
-      "id": 12
-    },
-    {
-      "name": "angela perl",
-      "phone": "8888",
-      "id": 13
-    }
-  ]
+  "requests": []
 }

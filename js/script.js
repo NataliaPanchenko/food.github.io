@@ -23,7 +23,9 @@ window.addEventListener("DOMContentLoaded", () => {
     "tabheader__item_active"
   );
   modal("[data-modal]", ".modal", modalTimerId);
-  timer(".timer", "2026-06-20");
+  console.log("now:", new Date());
+  console.log("deadline:", Date.parse("2026-10-20"));
+  timer(".timer", "2026-10-20");
   cards();
   calc();
   forms("form", modalTimerId);
